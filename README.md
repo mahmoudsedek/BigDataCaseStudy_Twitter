@@ -30,7 +30,7 @@ The project aims at building a data platform streaming and analyzing of twitter 
    >>> pip install tweepy >>>
    >>> pip install textblob >>>
  
-    # Steps:
+   # Steps:
     1. myConfig.py
         a) Put you Tokens, Keys in the key dictionary.
         b) Edit the parquet_directory with wherever you want to save your parquet files.
