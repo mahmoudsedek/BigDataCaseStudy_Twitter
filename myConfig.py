@@ -1,10 +1,10 @@
 import tweepy as tw
 
 # APi Keys (+ secret) & Access Tokens (+ secret)
-key = ['TC2awvJ2lWnWqUBTMmVsb5XjS',
-       'wLvsLaPulzLl8aLn5WXYvkUVLH12w6xhK9OsDeue3SOrMyQzFc',
-       '1385691722383036417-P03tq0b3mWFnSh9L4SY8oZ3sx7Zcna',
-       'zK6Hkiw5DXLToJdDKMdHCDdQsfgFN7xTmhiAesbrorS6L'
+key = ['############################',
+       '############################',
+       '############################################',
+       '############################################'
        ]
        
 search_words = "#vaccinated" + "-filter:retweets"
@@ -15,7 +15,7 @@ hashtag_demo = "#sedek_demo" + "-filter:retweets"
 date_since = "2021-3-1"
 date_until = "2021-4-28"
 nrTweets = 7
-broker_port = "localhost:9092"
+broker_port = "sandbox-hdp.hortonworks.com:6667"
 topic_name = "covid_vaccine"
 parquet_directory = "hdfs://sandbox-hdp.hortonworks.com:8020/root/BigData_Mahmoud/covid_19"
 
