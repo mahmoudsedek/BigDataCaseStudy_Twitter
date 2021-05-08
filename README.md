@@ -1,4 +1,4 @@
-# Sentiment analysis on streaming tweets using Spark DStream, Kafka, and Python
+# Sentiment analysis on streaming tweets using Spark DStream, Kafka and Python
 Regarding the situation all over the world I'll be focusing on COVID19.
 The project aims at building a data platform streaming and analyzing of twitter data and the implementation will utilize different big data technologies as i'll describe below:
 
