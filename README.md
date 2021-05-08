@@ -18,8 +18,8 @@ after streaming this data and sending it to Kafka then start streaming it using 
   c) HDP 2.6.5
   
   d) Creating virtual environemt (with these main packages):
-   >>> python3.6 -m venv ./iti41 
-   >>> source iti41/bin/activate 
+   >>> python3.6 -m venv ./iti41 >>>
+   >>> source iti41/bin/activate >>>
    >>> pip install --upgrade pip
    >>> pip install confluent-kafka 
    >>> pip install pyspark==2.4.6 
