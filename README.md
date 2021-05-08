@@ -9,16 +9,14 @@ after streaming this data and sending it to Kafka then start streaming it using 
 
 # Setting up the Development Environment (those are main packages you can find rest of them inside the code):
   a)Create a twitter Developer Account Application to get an authentication keys to fetch data through their API.
-  b)Synchronizes HDP datetime with UTC (Universal Time Coordination), which Sandbox runs on, it is needed to avoid running into authentication errors when connecting to the Twitter API, use: >>> ntpdate -u time.google.com OR >>>> sudo timedatectl set-timezone Africa/Cairo THEN >>> date -s "02 MAY 2021 13:40:00"
+  b)Synchronizes HDP datetime with UTC (Universal Time Coordination), which Sandbox runs on, it is needed to avoid running into authentication errors when connecting to the Twitter API, use: >>> ntpdate -u time.google.com 
+  OR 
+  >>>> sudo timedatectl set-timezone Africa/Cairo 
+  >>>> THEN >>> date -s "02 MAY 2021 13:40:00"
   c) HDP 2.6.5
-  d) Creating virtual environemt:
-    1- python3.6 -m venv ./iti41
-    2- source iti41/bin/activate
-    3- pip install --upgrade pip
-    4- pip install confluent-kafka
-    5- pip install pyspark==2.4.6
-    6- pip install tweepy
-    7- pip install textblob
+  d) Creating virtual environemt (with these main packages):
+    [ python3.6 -m venv ./iti41 | source iti41/bin/activate | pip install --upgrade pip | pip install confluent-kafka 
+     pip install pyspark==2.4.6 | pip install tweepy | pip install textblob ]
     
 [2] Streaming Twitter Data and ingesting it into Kafka Topic.
 [3] Preprocess tweets using pyspark code.
