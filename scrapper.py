@@ -79,5 +79,5 @@ while True:
             print("No more tweets of topic: " + hashtag_demo.split('-')[0] + ", Keep listening...")
             sleep(
                 60)  # if there's no more tweets about this #HASHTAG make the application wats for 1 minute before go and search for new data
-        # consider it a pretty way to keep you script and twitter-api credentials safe from not being suspended :'D
+        # consider it a pretty way to keep you script and twitter-api credentials safe from not being suspended :'D 
 
