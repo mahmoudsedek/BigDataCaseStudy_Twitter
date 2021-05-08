@@ -8,7 +8,7 @@ after streaming this data and sending it to Kafka then start streaming it using 
 # Pipeline Description
 [1] Setting up the Development Environment (those are main packages you can find rest of them inside the code):
   a)Create a twitter Developer Account Application to get an authentication keys to fetch data through their API.
-  b)Synchronizes HDP datetime with UTC (Universal Time Coordination), which Sandbox runs on, it is needed to avoid running into authentication errors when connecting to the Twitter API, use: >>> # ntpdate -u time.google.com OR >>>> # sudo timedatectl set-timezone Africa/Cairo THEN >>> # date -s "02 MAY 2021 13:40:00"
+  b)Synchronizes HDP datetime with UTC (Universal Time Coordination), which Sandbox runs on, it is needed to avoid running into authentication errors when connecting to the Twitter API, use: >>> ntpdate -u time.google.com OR >>>> sudo timedatectl set-timezone Africa/Cairo THEN >>> date -s "02 MAY 2021 13:40:00"
   a) HDP 2.6.5
   b) Creating virtual environemt:
     1- python3.6 -m venv ./iti41
