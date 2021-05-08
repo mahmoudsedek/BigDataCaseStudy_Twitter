@@ -56,3 +56,7 @@ The project aims at building a data platform streaming and analyzing of twitter 
      CREATE EXTERNAL TABLE if not exists twitter.vaccine (userId string, userName string, tweetId string, tweet string, reply string, userLocation string,
     tweetDate string, source_app string, followers_count string, following_count string,account_creationdt string, favourites_count string, verified string,)
     stored as parquet LOCATION 'hdfs://sandbox-hdp.hortonworks.com:8020/root/BigData_Mahmoud/vaccine'
+    
+    5. services_monitoring.py
+        a) RUN: python services_monitoring.py
+        b) You can add it in crontab -e with whatever time you want to make it scheduled on.
