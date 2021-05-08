@@ -23,6 +23,9 @@ json_data=json.loads(r.text)
 CLUSTER_NAME=json_data["items"][0]["Clusters"]["cluster_name"]
 print(CLUSTER_NAME)
 data = getServices('SPARK2')
-print(data)
-print(data["ServiceInfo"]["service_name"])
-print(data["ServiceInfo"]["state"])
+Services = ['ZOOKEEPER','HDFS','SPARK2','KAFKA','HIVE']
+for Service in Services:
+    data = getServices(Service)
+    #print(data)
+    print(data["ServiceInfo"]["service_name"]+' '+data["ServiceInfo"]["state"])
+    #print(data["ServiceInfo"]["state"])
