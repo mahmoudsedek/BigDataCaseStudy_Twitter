@@ -59,6 +59,12 @@ The project aims at building a data platform streaming and analyzing of twitter 
     tweetDate string, source_app string, followers_count string, following_count string,account_creationdt string, favourites_count string, verified string,)
     stored as parquet LOCATION 'hdfs://sandbox-hdp.hortonworks.com:8020/root/BigData_Mahmoud/vaccine'
     
-    5. services_monitoring.py
+    5. HIVE to Power-BI connection
+        a) Download: ClouderaHiveODBC64.msi
+        b) Open the ODBC 64bit from the start menu.
+        c) On User DSN tab, choose Add, a pop-up menu will appear choose: Cloudera ODBC Drive for Apache Hive
+        d) Configure your DSN (whatever source name you want), Hosts (put localhost), and from Authentication choose user name & password and type root and its password for HDP 2.6.5
+    
+    6. services_monitoring.py
         a) RUN: python services_monitoring.py
         b) You can add it in crontab -e with whatever time you want to make it scheduled on.
