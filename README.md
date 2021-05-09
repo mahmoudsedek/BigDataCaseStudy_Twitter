@@ -2,7 +2,7 @@
 Regarding the situation all over the world I'll be focusing on COVID19.
 The project aims at building a data platform streaming and analyzing of twitter data and the implementation will utilize different big data technologies as i'll describe below:
 
-# Pipeline Description
+# Architecture Description
     1.After streaming this data and sending it to Kafka.
     2.Start streaming it using Spark to:
       a-Process this tweets.
@@ -10,7 +10,7 @@ The project aims at building a data platform streaming and analyzing of twitter 
       c-writing parquet files of this tweets on HDFS.
     3.Build a hive table on top of these parquet files.
     4.And last but not least using Power BI for visualiztion for delivering insights and data discovery.
- # Pipeline
+ # Architecture Design
  ![# Pipeline](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/architecture.JPG?raw=true)
 
 # Setting up the Development Environment (those are main packages you can find rest of them inside the code):
