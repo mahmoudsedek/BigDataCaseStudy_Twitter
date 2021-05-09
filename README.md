@@ -12,6 +12,12 @@ The project aims at building a data platform streaming and analyzing of twitter 
     4.And last but not least using Power BI for visualiztion for delivering insights and data discovery.
  # Architecture Design
  ![# Pipeline](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/architecture.JPG?raw=true)
+ 
+ # Visualization
+  ![# Visualization](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/Visualization/Covid_19-ALL1.jpg?raw=true)
+  ![# Visualization](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/Visualization/Covid_19-ALL2.jpg?raw=true)
+  ![# Visualization](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/Visualization/Vaccine-ALL.jpg?raw=true)
+
 
 # Setting up the Development Environment (those are main packages you can find rest of them inside the code):
   a)Create a twitter Developer Account Application to get an authentication keys to fetch data through their API.
