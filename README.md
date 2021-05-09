@@ -57,12 +57,14 @@ The project aims at building a data platform streaming and analyzing of twitter 
         a) RUN: spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8-assembly_2.11:2.4.6  --master local spark-Kafka.py
 
     4. HIVE table
-    a) 1st table
+    a) create database twitter
+    
+    b) 1st table
     CREATE EXTERNAL TABLE if not exists twitter.covid_19 (userId string, userName string, tweetId string, tweet string, reply string, userLocation string,
     tweetDate string, source_app string, followers_count string, following_count string,account_creationdt string, favourites_count string, verified string,)
     stored as parquet LOCATION 'hdfs://sandbox-hdp.hortonworks.com:8020/root/BigData_Mahmoud/covid_19' 
 
-    b) 2nd table
+    c) 2nd table
      CREATE EXTERNAL TABLE if not exists twitter.vaccine (userId string, userName string, tweetId string, tweet string, reply string, userLocation string,
     tweetDate string, source_app string, followers_count string, following_count string,account_creationdt string, favourites_count string, verified string,)
     stored as parquet LOCATION 'hdfs://sandbox-hdp.hortonworks.com:8020/root/BigData_Mahmoud/vaccine'
