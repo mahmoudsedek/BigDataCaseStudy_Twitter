@@ -10,6 +10,8 @@ The project aims at building a data platform streaming and analyzing of twitter 
       c-writing parquet files of this tweets on HDFS.
     3.Build a hive table on top of these parquet files.
     4.And last but not least using Power BI for visualiztion for delivering insights and data discovery.
+ # Pipeline
+ ![# Pipeline](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/architecture.JPG?raw=true)
 
 # Setting up the Development Environment (those are main packages you can find rest of them inside the code):
   a)Create a twitter Developer Account Application to get an authentication keys to fetch data through their API.
