@@ -14,8 +14,10 @@ The project aims at building a data platform streaming and analyzing of twitter 
  ![# Pipeline](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/architecture.JPG?raw=true)
  
  # Visualization
+  ## Covid-19 insights 
   ![# Visualization](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/Visualization/Covid_19-ALL1.jpg?raw=true)
   ![# Visualization](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/Visualization/Covid_19-ALL2.jpg?raw=true)
+  ## Vaccine insights 
   ![# Visualization](https://github.com/mahmoudsedek/BigDataCaseStudy_Twitter/blob/main/Visualization/Vaccine-ALL.jpg?raw=true)
 
 
