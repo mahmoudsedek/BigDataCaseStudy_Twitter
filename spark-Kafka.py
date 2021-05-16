@@ -124,7 +124,7 @@ def fetchData(rdd, spark):
         df = spark.createDataFrame(rdd_list, twitterSchema)
 
         # print("Creating DataFrame...") #with first action will go to extractValues first
-        df.show()  # show will do an action, making extractValues applies and the reply applies twice because next line also is an action,
+        # df.show()  # show will do an action, making extractValues applies and the reply applies twice because next line also is an action,
         # go up there handle your replySentiment
 
         check = rdd_list.collect()  # another action will enforce the whole process
